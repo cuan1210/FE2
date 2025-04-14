@@ -1,0 +1,22 @@
+.icon-container .icons,
+.icon-container .add-to-cart {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.icon-container:hover .icons,
+.icon-container:hover .add-to-cart {
+    opacity: 1;
+}
+
+#cart-sidebar{
+    animation: opensidebar 0.5s 1;
+}
+@keyframes opensidebar {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

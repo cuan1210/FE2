@@ -1,0 +1,635 @@
+{
+  "category": [
+    {
+      "name": "Phones",
+      "description": "ok ok",
+      "id": 1,
+      "icon": "FaMobileAlt"
+    },
+    {
+      "name": "Computers",
+      "description": "ok ok",
+      "icon": "FaLaptop",
+      "id": 2
+    },
+    {
+      "name": "SmartWatch",
+      "description": "ok ok",
+      "icon": "FaClock",
+      "id": 3
+    },
+    {
+      "name": "Camera",
+      "description": "Camera",
+      "icon": "FaCamera",
+      "id": 4
+    },
+    {
+      "name": "HeadPhones",
+      "description": "HeadPhones",
+      "icon": "FaHeadphones",
+      "id": 5
+    },
+    {
+      "name": "Gaming",
+      "description": "Gaming",
+      "icon": "FaGamepad",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "id": 4,
+      "name": "Breed Dry Dog Food 12",
+      "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1743667312/fz7z21px5vquuqefawg3.png",
+      "price": "10000",
+      "coler": "#cd1313",
+      "size": "XS",
+      "rating": "3",
+      "description": "ok",
+      "status": "inStock",
+      "type": "simple",
+      "parent": 0,
+      "quantity": "10",
+      "category": "1"
+    },
+    {
+      "id": 5,
+      "name": "CANON EOS DSLR Camera",
+      "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1743668815/jrdddwddm6bqpcsrorps.png",
+      "price": "3599",
+      "coler": "#000000",
+      "size": "XL",
+      "rating": "4",
+      "quantity": "10",
+      "description": "ok",
+      "status": "inStock",
+      "type": "simple",
+      "parent": 0,
+      "category": "1"
+    },
+    {
+      "id": 6,
+      "name": "ASUS FHD Gaming Laptop",
+      "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1743668990/fkwami2simjbroc75uva.png",
+      "price": "7000",
+      "coler": "#000000",
+      "size": "XS",
+      "rating": "5",
+      "quantity": "10",
+      "description": "ok",
+      "status": "offStock",
+      "type": "simple",
+      "parent": 0,
+      "category": "1",
+      "AblumImage": [
+        "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744023564/zcroshh0pibszwqfzat9.png",
+        "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744023564/bsm4zajy1xaqrb0agbrv.png",
+        "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744023564/ym3bbkodmcxcrmacbqdu.png",
+        "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744023565/zdu01jsnbqwjc02dowgv.png"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Curology Product Set ",
+      "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1743669072/fhfgqmfsxyqqizodaq35.png",
+      "price": "5000",
+      "coler": "#000000",
+      "size": "XS",
+      "rating": "4",
+      "quantity": "10",
+      "description": "ok",
+      "status": "inStock",
+      "type": "simple",
+      "parent": 0,
+      "category": "1",
+      "AblumImage": [
+        "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744023509/ozjywq4zahkqorruqmbq.png",
+        "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744023509/azhzntkfl9sn70ivdnfn.png",
+        "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744023509/qehn23sluf8otahd8do3.png",
+        "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744023510/cwgis7zgzizyritnfpjh.png"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Kids Electric Car",
+      "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1743669139/kf3xf8pz4ufv11gs94ro.png",
+      "price": "9600",
+      "coler": "#000000",
+      "size": "XS",
+      "rating": "5",
+      "quantity": "10",
+      "description": "ok",
+      "status": "inStock",
+      "type": "simple",
+      "parent": 0,
+      "category": "6"
+    },
+    {
+      "id": 9,
+      "name": "Jr. Zoom Soccer Cleats",
+      "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1743669166/f3jcxoerbmirdw3eopus.png",
+      "price": "1160",
+      "coler": "#000000",
+      "size": "XS",
+      "rating": "5",
+      "quantity": "10",
+      "description": "ok",
+      "status": "inStock",
+      "type": "simple",
+      "parent": 0,
+      "category": "4"
+    },
+    {
+      "id": 10,
+      "name": "GP11 Shooter USB Gamepad",
+      "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1743669234/jw0vzvpwextvncqarilt.png",
+      "price": "6601",
+      "coler": "#000000",
+      "size": "XS",
+      "rating": "4",
+      "quantity": "10",
+      "description": "kkkk",
+      "status": "inStock",
+      "type": "simple",
+      "parent": 0,
+      "category": "1"
+    },
+    {
+      "id": 11,
+      "name": "Quilted Satin Jacket",
+      "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1743669280/e9bnyfim6vpq62xppsmq.png",
+      "price": "6601",
+      "coler": "#000000",
+      "size": "XS",
+      "rating": "4",
+      "quantity": "10",
+      "description": "ok ",
+      "status": "inStock",
+      "type": "simple",
+      "parent": 0,
+      "category": "1"
+    },
+    {
+      "id": 12,
+      "AblumImage": [
+        "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744020101/ob0dijjfl1z3xrhsfrix.png",
+        "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744022695/eemuhiqamzq5wwnfmfvg.png"
+      ],
+      "name": "nguyễn hồng quân",
+      "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744020078/kp4pn0ecvyfzpriimqqn.png",
+      "price": "15000000",
+      "coler": "#643f92",
+      "size": "XS",
+      "rating": "4",
+      "quantity": "10",
+      "description": "okkkkk",
+      "status": "inStock",
+      "category": "6",
+      "type": "simple",
+      "parent": 0
+    },
+    {
+      "id": 13,
+      "AblumImage": [
+        "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744098123/gyrcwuwk4az9su5hzofn.png",
+        "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744098123/imzhzk78yrz0jpjkhmn0.png",
+        "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744098124/alav7qunetjhlo54plmu.png"
+      ],
+      "name": "ASUS FHD Gaming Laptop",
+      "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744098118/eds9heg14um0a3dc9oww.png",
+      "price": "7000",
+      "coler": "#000000",
+      "size": "S",
+      "rating": "5",
+      "quantity": "10",
+      "description": "okkkk",
+      "status": "inStock",
+      "category": "7",
+      "type": "simple",
+      "parent": 0
+    },
+    {
+      "id": 14,
+      "AblumImage": [
+        "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744190564/mqoqhukzsibn3pkw8vsi.png",
+        "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744190564/ao43stukfdbnkopvpn6i.png"
+      ],
+      "name": "quaan",
+      "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744190560/tmgqtzmytmffyrwjenkn.png",
+      "price": "7000",
+      "coler": "#000000",
+      "size": "XS",
+      "rating": "5",
+      "quantity": "10",
+      "description": "fff",
+      "status": "inStock",
+      "category": "6",
+      "type": "simple",
+      "parent": 0
+    },
+    {
+      "id": 15,
+      "AblumImage": [
+        "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744560122/potsfjnex2efbbuaznky.png",
+        "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744560123/prsb1eqa3usipgocnqzg.png",
+        "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744560123/x2gp3xy1htohbtfttcdv.png"
+      ],
+      "name": "laptop",
+      "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744560117/bekm3gm5dphwoogqdqxu.png",
+      "price": "10000",
+      "coler": "#000000",
+      "size": "XS",
+      "rating": "3",
+      "quantity": "10",
+      "description": "ddd",
+      "status": "inStock",
+      "category": "2",
+      "type": "simple",
+      "parent": 0
+    }
+  ],
+  "variants": [],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 5,
+      "name": "nguyễn hồng quân",
+      "email": "hongquan020202@gmail.com",
+      "phone": "0354549423",
+      "address": "di trạch hoài đức hà nội",
+      "note": "ok",
+      "paymentMethod": "cod",
+      "items": [
+        {
+          "productId": {
+            "id": 6,
+            "name": "ASUS FHD Gaming Laptop",
+            "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1743668990/fkwami2simjbroc75uva.png",
+            "price": "7000",
+            "coler": "#000000",
+            "size": "XS",
+            "rating": "5",
+            "quantity": "10",
+            "description": "ok",
+            "status": "offStock",
+            "type": "simple",
+            "parent": 0,
+            "category": "1",
+            "AblumImage": [
+              "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744023564/zcroshh0pibszwqfzat9.png",
+              "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744023564/bsm4zajy1xaqrb0agbrv.png",
+              "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744023564/ym3bbkodmcxcrmacbqdu.png",
+              "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744023565/zdu01jsnbqwjc02dowgv.png"
+            ]
+          },
+          "quantity": 2
+        },
+        {
+          "productId": {
+            "id": 5,
+            "name": "CANON EOS DSLR Camera",
+            "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1743668815/jrdddwddm6bqpcsrorps.png",
+            "price": "3599",
+            "coler": "#000000",
+            "size": "XL",
+            "rating": "4",
+            "quantity": "10",
+            "description": "ok",
+            "status": "inStock",
+            "type": "simple",
+            "parent": 0,
+            "category": "1"
+          },
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 5,
+      "name": "nguyễn hồng quân",
+      "email": "hongquan020202@gmail.com",
+      "phone": "0354549423",
+      "address": "di trạch hoài đức hà nội",
+      "note": "ok",
+      "paymentMethod": "cod",
+      "items": [
+        {
+          "productId": {
+            "id": 5,
+            "name": "CANON EOS DSLR Camera",
+            "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1743668815/jrdddwddm6bqpcsrorps.png",
+            "price": "3599",
+            "coler": "#000000",
+            "size": "XL",
+            "rating": "4",
+            "quantity": "10",
+            "description": "ok",
+            "status": "inStock",
+            "type": "simple",
+            "parent": 0,
+            "category": "1"
+          },
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 5,
+      "name": "nguyễn hồng quân",
+      "email": "hongquan020202@gmail.com",
+      "phone": "0354549423",
+      "address": "di trạch hoài đức hà nội",
+      "note": "ok",
+      "paymentMethod": "cod",
+      "items": [
+        {
+          "productId": {
+            "id": 5,
+            "name": "CANON EOS DSLR Camera",
+            "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1743668815/jrdddwddm6bqpcsrorps.png",
+            "price": "3599",
+            "coler": "#000000",
+            "size": "XL",
+            "rating": "4",
+            "quantity": "10",
+            "description": "ok",
+            "status": "inStock",
+            "type": "simple",
+            "parent": 0,
+            "category": "1"
+          },
+          "quantity": 2
+        },
+        {
+          "productId": {
+            "id": 6,
+            "name": "ASUS FHD Gaming Laptop",
+            "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1743668990/fkwami2simjbroc75uva.png",
+            "price": "7000",
+            "coler": "#000000",
+            "size": "XS",
+            "rating": "5",
+            "quantity": "10",
+            "description": "ok",
+            "status": "offStock",
+            "type": "simple",
+            "parent": 0,
+            "category": "1",
+            "AblumImage": [
+              "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744023564/zcroshh0pibszwqfzat9.png",
+              "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744023564/bsm4zajy1xaqrb0agbrv.png",
+              "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744023564/ym3bbkodmcxcrmacbqdu.png",
+              "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744023565/zdu01jsnbqwjc02dowgv.png"
+            ]
+          },
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 5,
+      "name": "nguyễn hồng quân 12",
+      "email": "hongquan020202@gmail.com",
+      "phone": "0354549423",
+      "address": "di trạch hoài đức hà nội",
+      "note": "ok",
+      "paymentMethod": "cod",
+      "items": [
+        {
+          "productId": {
+            "id": 5,
+            "name": "CANON EOS DSLR Camera",
+            "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1743668815/jrdddwddm6bqpcsrorps.png",
+            "price": "3599",
+            "coler": "#000000",
+            "size": "XL",
+            "rating": "4",
+            "quantity": "10",
+            "description": "ok",
+            "status": "inStock",
+            "type": "simple",
+            "parent": 0,
+            "category": "1"
+          },
+          "quantity": 1
+        },
+        {
+          "productId": {
+            "id": 10,
+            "name": "GP11 Shooter USB Gamepad",
+            "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1743669234/jw0vzvpwextvncqarilt.png",
+            "price": "6601",
+            "coler": "#000000",
+            "size": "XS",
+            "rating": "4",
+            "quantity": "10",
+            "description": "kkkk",
+            "status": "inStock",
+            "type": "simple",
+            "parent": 0,
+            "category": "1"
+          },
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "name": "nguyễn hồng quân 121",
+      "email": "hongquan020202@gmail.com",
+      "phone": "0354549423",
+      "address": "di trạch hoài đức hà nội",
+      "note": "1",
+      "paymentMethod": "cod",
+      "items": [
+        {
+          "productId": {
+            "id": 5,
+            "name": "CANON EOS DSLR Camera",
+            "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1743668815/jrdddwddm6bqpcsrorps.png",
+            "price": "3599",
+            "coler": "#000000",
+            "size": "XL",
+            "rating": "4",
+            "quantity": "10",
+            "description": "ok",
+            "status": "inStock",
+            "type": "simple",
+            "parent": 0,
+            "category": "1"
+          },
+          "quantity": 1
+        },
+        {
+          "productId": {
+            "id": 10,
+            "name": "GP11 Shooter USB Gamepad",
+            "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1743669234/jw0vzvpwextvncqarilt.png",
+            "price": "6601",
+            "coler": "#000000",
+            "size": "XS",
+            "rating": "4",
+            "quantity": "10",
+            "description": "kkkk",
+            "status": "inStock",
+            "type": "simple",
+            "parent": 0,
+            "category": "1"
+          },
+          "quantity": 1
+        },
+        {
+          "productId": {
+            "id": 13,
+            "AblumImage": [
+              "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744098123/gyrcwuwk4az9su5hzofn.png",
+              "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744098123/imzhzk78yrz0jpjkhmn0.png",
+              "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744098124/alav7qunetjhlo54plmu.png"
+            ],
+            "name": "ASUS FHD Gaming Laptop",
+            "image": "http://res.cloudinary.com/dy0gx6iz7/image/upload/v1744098118/eds9heg14um0a3dc9oww.png",
+            "price": "7000",
+            "coler": "#000000",
+            "size": "S",
+            "rating": "5",
+            "quantity": "10",
+            "description": "okkkk",
+            "status": "inStock",
+            "category": "7",
+            "type": "simple",
+            "parent": 0
+          },
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "userId": 3,
+      "Items": [
+        {
+          "productId": 5,
+          "quantity": 2
+        },
+        {
+          "productId": 6,
+          "quantity": 5
+        },
+        {
+          "productId": 7,
+          "quantity": 1
+        },
+        {
+          "productId": 4,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 5,
+      "Items": []
+    },
+    {
+      "id": 3,
+      "userId": 7,
+      "Items": [
+        {
+          "productId": 5,
+          "quantity": 1
+        },
+        {
+          "productId": 10,
+          "quantity": 1
+        },
+        {
+          "productId": 13,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 9,
+      "Items": [
+        {
+          "productId": 4,
+          "quantity": 1
+        },
+        {
+          "productId": 9,
+          "quantity": 1
+        },
+        {
+          "productId": 7,
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "email": "a@gmail.com",
+      "password": "$2a$10$VJ2cMQFgk4vuASvPFt7MJOoMfdGS/tMJRrM2g/XPh5ZfLStVK0C22",
+      "id": 3
+    },
+    {
+      "email": "a1@gmail.com",
+      "name": "quaan",
+      "password": "$2a$10$XWX/7j/N3DVvFvNuQEcvfudRjilSR4W6ncf2e3it6GnFt6bQ0wx9C",
+      "id": 4
+    },
+    {
+      "email": "hongquan020202@gmail.com",
+      "password": "$2a$10$Aue8gSoN9q21UKMHYSiEKe7Ig01ZVUc5l8XokkdKjqcRJe.PYc35u",
+      "name": "nguyễn hồng quân",
+      "address": "di trạch hoài đức hà nội",
+      "phone": "0354549423",
+      "role": "fasle",
+      "id": 5
+    },
+    {
+      "email": "hongquan02@gmail.com",
+      "password": "$2a$10$fG.UIcdVHHjkS6DlBHfT.OAsOO9F9JHcptYDrxpxzN9DVYJaeS3Sa",
+      "name": "quan1",
+      "address": "di trạch hoài đức hà nội",
+      "phone": "0354549423",
+      "role": "true",
+      "id": 6
+    },
+    {
+      "email": "quannhph50104@gmail.com",
+      "password": "$2a$10$ol6xeiVIWfGfdEFaI/BmG.FtYNVbd4FsJcJOi6aW/eEcRkFwBjqiq",
+      "name": "quan121",
+      "address": "di trạch hoài đức hà nội1",
+      "phone": "03545494231",
+      "role": "false",
+      "id": 7
+    },
+    {
+      "email": "hongquan02020202@gmail.com",
+      "password": "$2a$10$VYUEhk2KLHviQZiig3NACuWKW1k79rU8rEJ8tGXLiETSvuEj0U.HK",
+      "name": "nguyễn hồng quân1111111",
+      "address": "di trạch hoài đức hà nội",
+      "phone": "0354549423",
+      "role": "false",
+      "id": 8
+    },
+    {
+      "email": "a2@gmail.com",
+      "password": "$2a$10$w7jWKt.IQJm/KrkxhE5rOO.fgzHmD77PlzjYRdjiFo1meXH2hY0.e",
+      "name": "nguyễn hồng quân111111111111111111",
+      "address": "di trạch hoài đức hà nội",
+      "phone": "0354549423",
+      "role": "true",
+      "id": 9
+    }
+  ]
+}
